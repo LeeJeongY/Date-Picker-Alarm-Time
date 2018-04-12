@@ -49,6 +49,11 @@ class ViewController: UIViewController {
         timeLabel.text = formatter.string(from: myDatePicker.date)
     }
     
+    
+    @IBAction func stopAlert(_ sender: Any) {
+        view.backgroundColor = UIColor.white
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
